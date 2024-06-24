@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#For Ubuntu
+
 sudo apt-get update
 
 sudo apt-get install elixir
@@ -19,3 +21,9 @@ yes | sudo ufw enable
 
 # Mostrar el estado de ufw
 sudo ufw status
+
+git clone https://github.com/drownlifex/SSE_with_elixir_libcluster.git
+
+cd SSE_with_elixir_libcluster
+
+ls
