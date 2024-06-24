@@ -20,3 +20,23 @@ PORT=4000
 `curl -N http://*****IP**PORT***/sse`
 # Mandar un mensaje
 `curl -X POST http://******IP****PORT**/send_message -d "topic=default" -d "message=Hola"`
+
+# Puertos necesarios
+```ports: 4000/tcp 4369/tcp 9100-9155/tcp 4369/udp 32768-65535/tcp 32768-65535/udp```
+
+Recordar activar estos puertos en fireware de vps
+
+## Comandos para activar el fireware
+
+
+``sudo ufw allow 4000/tcp`` 
+
+``sudo ufw allow 4369/tcp``
+
+``sudo ufw allow 9100:9155/tcp``
+
+``sudo ufw allow 4369/udp``
+
+``sudo ufw allow 32768:65535/tcp``
+
+``sudo ufw allow 32768:65535/udp``
