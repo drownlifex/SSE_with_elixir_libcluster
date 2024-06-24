@@ -1,6 +1,7 @@
 # Sistema SSE
 Permite conectar ciento de usuarios en a un pub/sub usando SSE en lugar de websockets. Además de permitir crear un cluster de nodos en diferentes vps. 
 
+``git clone https://github.com/drownlifex/SSE_with_elixir_libcluster.git``
 
 ### Example .env
 

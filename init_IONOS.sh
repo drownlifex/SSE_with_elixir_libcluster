@@ -26,4 +26,4 @@ git clone https://github.com/drownlifex/SSE_with_elixir_libcluster.git
 
 cd SSE_with_elixir_libcluster
 
-ls
+mix deps.get
