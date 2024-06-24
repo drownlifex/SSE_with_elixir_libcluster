@@ -12,7 +12,9 @@ config :libcluster,
 topologies: [
   example_cluster: [
     strategy: Cluster.Strategy.Epmd,
-    config: nodes
+    config: [
+      hosts: nodes
+    ]
   ]
 ]
 
